@@ -842,7 +842,6 @@ namespace BenCMDS
                         eb.AddField("Elhunytak:", $"{halalozasok}", true);
                         eb.WithColor(Discord.Color.Blue);
                         eb.WithThumbnailUrl("https://media4.giphy.com/media/zBnntUUZUtnrTwAP2H/giphy.gif?cid=790b7611046ed271e401ae00841a7c55b8ec9fb3a077f76a&rid=giphy.gif&ct=g");
-                        eb.WithFooter(footer => footer.Text = "Forrás: WHO");
                         eb.WithCurrentTimestamp();
                         avatar = context.Message.Author.GetAvatarUrl();
                         eb.WithAuthor(context.Message.Author.Username, avatar);
